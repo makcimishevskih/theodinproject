@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up form</title>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="bg">
+            <div class="title-container">
+                <img class='logo' src="public/odin-lined.png" alt="odin logo">
+                <h1 class="title">Odin</h1>
+            </div>
+        </div>
+
+        <div class="sign-up-container">
+            <div class="container">
+                <p class="text">This is not a real online service! 
+                    You know you need something like this in your life 
+                    to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started
+                </p>
+                <p class="text">You <em>know</em> you want to.</p>
+            </div>
+            <form class="form" action="/" method="post">
+                <div class="form-container">
+                    <fieldset class="fieldset">
+                        <h3>Les's do this!</h3>
+                        <div class="inputs-container">
+                            <div class="first">
+                                <div>
+                                    <label for="name">first name</label>
+                                    <input id="name" type="text" name="firstName" placeholder="">
+                                </div>
+                                <div>
+                                    <label for="email">email</label>
+                                    <input id="email" type="email" placeholder="">
+                                </div>
+                                <div>
+                                    <label for="password">password</label>
+                                    <input required id="password" type="password" placeholder="">
+                                    <div class="error">Passwords do not match</div>
+                                </div>
+                            </div>
+                            <div class="second">
+                                <div>
+                                    <label for="lastName">last name</label>
+                                    <input id="lastName" type="text" name="lastName" placeholder="">
+                                </div>
+                                <div>
+                                    <label for="phoneNumber">phone number</label>
+                                    <input id="phoneNumber" type="tel" name="phoneNumber" placeholder="">
+                                </div>
+                                <div>
+                                    <label for="confirmPassword">confirm password</label>
+                                    <input required id="confirmPassword" type="password" name="confirmPassword" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="container">
+                    <button type="submit">Create Account</button>
+                    <p class="hasAccount">
+                        Already have an account? <a href="#">Log in</a>
+                    </p>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
