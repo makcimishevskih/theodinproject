@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body, 
+.root {
+    height: 100%;
+}
+
+.root {
+    padding: 0 20px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: brown;
+}
+
+.root {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    margin: 80px auto;
+    padding: 30px;
+    width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    border: navajowhite;
+    color: navajowhite;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: brown;
+    cursor: pointer;
+    transition: all 0.10s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(204, 73, 73);
+    color: rgb(253, 238, 215);
+}
+
+.form > div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+input {
+    margin-left: 10px;
+    padding: 0 4px;
+    line-height: 25px;
+}
+
+input[type='checkbox'] {
+    width: 40px;
+    height: 40px;
+}
+
+input[type='number'] {
+    padding: 0 5px;
+    width: 50px;
+    max-width: 70px;
+    height: 30px;
+}
+
+.books-list {
+    margin-top: 100px;
+} 
+
+.books-item {
+    margin-bottom: 20px;
+}

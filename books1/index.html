@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Books Vanilla</title>
+
+</head>
+<body>
+    <main class="root">
+        <form class="form">
+
+            <div>
+                <label for="name">name: </label>
+                <input id="name" type="text" name="name" value="Book">
+            </div>
+            <div>
+                <label for="author">author: </label>
+                <input id="author" type="text" name="author" value="Max">
+            </div>
+            <div>
+                <label for="name">pages count: </label>
+                <input id="pagesCount" type="number" name="pagesCount" value="10">
+            </div>
+            <div>
+                <label for="isRead">Have you read the book?</label>
+                <input id="isRead" type="checkbox" name="isRead" checked>
+            </div>
+
+            <div>
+                <button type="submit">Add the book!</button>
+            </div>
+
+        </form>
+        
+        <div class="books">
+            <ul class="books-list">
+            </ul>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
