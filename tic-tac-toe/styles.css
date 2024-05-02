@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ttt {
+    display: none;
+    border: 5px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .line {
+    display: flex;
+  }
+  
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid black;
+  }
+  
+  .cell:hover {
+    color: gray;
+  }
+  
+  .input-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    border-radius: 8px;
+    border: 1px solid gray;
+  }
+  
+  input:focus {
+    border: 1px solid blue;
+    outline: none;
+  }
+  
+  .player {
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f5f5f5;
+  }
+  .board-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+  }
+  .board {
+    display: none;
+  }
+  
+  .info-current-player {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .info-status {
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  .info-players {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .clear-btn, .next-round-btn {
+    display: block;
+    margin: 10px auto;
+  }
